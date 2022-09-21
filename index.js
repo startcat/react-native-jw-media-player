@@ -17,7 +17,7 @@ const RNJWPlayerManager =
 let playerId = 0;
 const RCT_RNJWPLAYER_REF = "RNJWPlayerKey";
 
-const RNJWPlayer = requireNativeComponent("RNJWPlayerViewManager", null);
+const RNJWPlayer = requireNativeComponent("RNJWPlayerView", null);
 
 const JWPlayerStateIOS = {
   JWPlayerStateUnknown: 0,
