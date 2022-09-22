@@ -1,5 +1,6 @@
 #import <React/RCTViewManager.h>
+#import <React/RCTBridgeModule.h>
 
-@interface RNJWPlayerViewManager: RCTViewManager
+@interface RNJWPlayerViewManager: RCTViewManager <RCTBridgeModule>
 
 @end
