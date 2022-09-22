@@ -1,9 +1,4 @@
-#if __has_include("React/RCTViewManager.h")
-#import "React/RCTViewManager.h"
-#else
-#import "RCTViewManager.h"
-#endif
-
+#import <React/RCTViewManager.h>
 #import <UIKit/UIKit.h>
 #import <AVKit/AVKit.h>
 #import <JWPlayerKit/JWPlayerKit-swift.h>
