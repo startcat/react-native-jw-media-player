@@ -2,6 +2,11 @@ require 'json'
 
 package = JSON.parse(File.read('./package.json'))
 
+# folly_version must match the version used in React Native
+# See folly_version in react-native/React/FBReactNativeSpec/FBReactNativeSpec.podspec
+folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
+folly_version = '2021.06.28.00-v2'
+
 Pod::Spec.new do |s|
   s.name         = 'RNJWPlayer'
   s.version      = package['version']
@@ -15,6 +20,16 @@ Pod::Spec.new do |s|
   s.dependency   'JWPlayerKit', '~> 4.6.2'
   s.dependency   'google-cast-sdk', '~> 4.7.0'
   s.dependency   'React'
+  s.dependency "React-Core"
+  s.dependency "React-Codegen"
+  s.dependency "RCT-Folly", folly_version
+  s.dependency "RCTRequired"
+  s.dependency "RCTTypeSafety"
+  s.dependency "ReactCommon/turbomodule/core"
+  s.compiler_flags  = folly_compiler_flags
+  s.pod_target_xcconfig    = {
+    "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/boost\""
+  }
   # s.static_framework = true
   s.info_plist = {
     'NSBluetoothAlwaysUsageDescription' => 'We will use your Bluetooth for media casting.',
