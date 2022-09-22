@@ -5,13 +5,13 @@
 
 #import "RCTUIManager.h"
 
-@interface RNJWPlayerViewManager : RCTViewManager
+@interface RNJWPlayerViewManager ()
 
 @end
 
 @implementation RNJWPlayerViewManager
 
-RCT_EXPORT_MODULE(RNJWPlayerView)
+RCT_EXPORT_MODULE()
 
 - (UIView*)view
 {
