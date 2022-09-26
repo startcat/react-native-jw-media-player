@@ -6,7 +6,8 @@
 #import <React/RCTBridge.h>
 #import <React/RCTUIManager.h>
 
-@interface RCT_EXTERN_MODULE(JWPlayerViewManager, RNJWPlayerViewManager)
+@interface RNJWPlayerViewManager: RCTViewManager
+
 @end
 
 @implementation RNJWPlayerViewManager

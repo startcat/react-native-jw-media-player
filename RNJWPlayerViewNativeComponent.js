@@ -1,5 +1,5 @@
 import { requireNativeComponent } from 'react-native';
 
-const RNJWPlayerViewNativeComponent = requireNativeComponent('JWPlayerView');
+const RNJWPlayerViewNativeComponent = requireNativeComponent('RNJWPlayerView');
 
 export default RNJWPlayerViewNativeComponent;
