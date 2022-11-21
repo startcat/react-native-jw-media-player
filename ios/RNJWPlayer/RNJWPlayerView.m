@@ -1,9 +1,6 @@
 #import "RNJWPlayerView.h"
 #import <AVFoundation/AVFoundation.h>
 #import <AVKit/AVKit.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTEventDispatcher.h>
-#import <React/UIView+React.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import "RCTConvert+RNJWPlayer.h"
 
@@ -484,7 +481,9 @@
     
     id repeatContent = config[@"repeat"];
     if (repeatContent != nil && (repeatContent != (id)[NSNull null])) {
-        [configBuilder repeatContent:repeatContent];
+        if ([repeatContent boolValue]) {
+            [configBuilder repeatContent:repeatContent];
+        }
     }
     
     id preload = config[@"preload"];

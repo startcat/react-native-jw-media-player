@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import RNJWPlayerViewNativeComponent from './RNJWPlayerViewNativeComponent';
 import {
   requireNativeComponent,
   UIManager,
@@ -18,7 +17,7 @@ const RNJWPlayerManager =
 let playerId = 0;
 const RCT_RNJWPLAYER_REF = "RNJWPlayerKey";
 
-//const RNJWPlayer = requireNativeComponent("RNJWPlayerView", null);
+const RNJWPlayer = requireNativeComponent("RNJWPlayerView", null);
 
 const JWPlayerStateIOS = {
   JWPlayerStateUnknown: 0,
@@ -487,6 +486,6 @@ export default class JWPlayer extends Component {
 
   render() {
     const ref_key = `${RCT_RNJWPLAYER_REF}-${this._playerId}`;
-    return <RNJWPlayerViewNativeComponent ref={ref_key} key={ref_key} {...this.props} />;
+    return <RNJWPlayer ref={ref_key} key={ref_key} {...this.props} />;
   }
 }

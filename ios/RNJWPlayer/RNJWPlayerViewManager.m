@@ -3,10 +3,9 @@
 #import "RNJWPlayerViewManager.h"
 #import "RNJWPlayerView.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTUIManager.h>
+#import "RCTUIManager.h"
 
-@interface RNJWPlayerViewManager: RCTViewManager
+@interface RNJWPlayerViewManager ()
 
 @end
 
@@ -16,12 +15,7 @@ RCT_EXPORT_MODULE()
 
 - (UIView*)view
 {
-    return [[RNJWPlayerView alloc] initWithEventDispatcher:self.bridge.eventDispatcher];
-}
-
-- (dispatch_queue_t)methodQueue
-{
-    return self.bridge.uiManager.methodQueue;
+    return [[RNJWPlayerView alloc] init];
 }
 
 /* player state events */
@@ -552,11 +546,6 @@ RCT_EXPORT_METHOD(reset) {
             }
         }
     }];
-}
-
-+ (BOOL)requiresMainQueueSetup
-{
-    return YES;
 }
 
 @end
