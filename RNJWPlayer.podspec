@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency   'google-cast-sdk', '~> 4.7.0'
   s.dependency   'YouboraJWPlayer4Adapter', '~> 6.6.0'
   s.dependency   'React'
-  # s.static_framework = true
+  s.static_framework = true
   s.info_plist = {
     'NSBluetoothAlwaysUsageDescription' => 'We will use your Bluetooth for media casting.',
     'NSBluetoothPeripheralUsageDescription' => 'We will use your Bluetooth for media casting.',
