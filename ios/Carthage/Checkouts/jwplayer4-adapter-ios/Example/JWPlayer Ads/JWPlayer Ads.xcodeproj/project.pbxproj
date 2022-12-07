@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE88150E7B3A28982E845C2 /* Pods_JWPlayer_Ads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82B51F26270586F58C6F004 /* Pods_JWPlayer_Ads.framework */; };
+		799E466226C1913D00BBBB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E466126C1913D00BBBB98 /* AppDelegate.swift */; };
+		799E466426C1913D00BBBB98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E466326C1913D00BBBB98 /* SceneDelegate.swift */; };
+		799E466626C1913D00BBBB98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E466526C1913D00BBBB98 /* ViewController.swift */; };
+		799E466926C1913D00BBBB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799E466726C1913D00BBBB98 /* Main.storyboard */; };
+		799E466B26C1913E00BBBB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799E466A26C1913E00BBBB98 /* Assets.xcassets */; };
+		799E466E26C1913E00BBBB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799E466C26C1913E00BBBB98 /* LaunchScreen.storyboard */; };
+		799E468E26C1AC5E00BBBB98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 799E468D26C1AC5E00BBBB98 /* README.md */; };
+		7A866F4227A8419300813C2F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A866F4027A8419300813C2F /* MenuViewController.swift */; };
+		7A866F4327A8419300813C2F /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A866F4127A8419300813C2F /* MenuViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E998E257D76332B5DAFC08B /* Pods-JWPlayer Ads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayer Ads.release.xcconfig"; path = "Target Support Files/Pods-JWPlayer Ads/Pods-JWPlayer Ads.release.xcconfig"; sourceTree = "<group>"; };
+		799E465E26C1913D00BBBB98 /* JWPlayer Ads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JWPlayer Ads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		799E466126C1913D00BBBB98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		799E466326C1913D00BBBB98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		799E466526C1913D00BBBB98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		799E466826C1913D00BBBB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		799E466A26C1913E00BBBB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		799E466D26C1913E00BBBB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		799E466F26C1913E00BBBB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799E468D26C1AC5E00BBBB98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A866F4027A8419300813C2F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7A866F4127A8419300813C2F /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		B82B51F26270586F58C6F004 /* Pods_JWPlayer_Ads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPlayer_Ads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6450B4190AC3BE4B1763A6 /* Pods-JWPlayer Ads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayer Ads.debug.xcconfig"; path = "Target Support Files/Pods-JWPlayer Ads/Pods-JWPlayer Ads.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		799E465B26C1913D00BBBB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE88150E7B3A28982E845C2 /* Pods_JWPlayer_Ads.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A320BD2AF183E4DC4CF955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF6450B4190AC3BE4B1763A6 /* Pods-JWPlayer Ads.debug.xcconfig */,
+				5E998E257D76332B5DAFC08B /* Pods-JWPlayer Ads.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		799E465526C1913D00BBBB98 = {
+			isa = PBXGroup;
+			children = (
+				799E468D26C1AC5E00BBBB98 /* README.md */,
+				799E466026C1913D00BBBB98 /* JWPlayer Ads */,
+				799E465F26C1913D00BBBB98 /* Products */,
+				9FCD93B217A38ADECE9D109F /* Frameworks */,
+				54A320BD2AF183E4DC4CF955 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		799E465F26C1913D00BBBB98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				799E465E26C1913D00BBBB98 /* JWPlayer Ads.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		799E466026C1913D00BBBB98 /* JWPlayer Ads */ = {
+			isa = PBXGroup;
+			children = (
+				7A866F3F27A8417900813C2F /* Menu */,
+				799E466126C1913D00BBBB98 /* AppDelegate.swift */,
+				799E466326C1913D00BBBB98 /* SceneDelegate.swift */,
+				799E466526C1913D00BBBB98 /* ViewController.swift */,
+				799E466726C1913D00BBBB98 /* Main.storyboard */,
+				799E466A26C1913E00BBBB98 /* Assets.xcassets */,
+				799E466C26C1913E00BBBB98 /* LaunchScreen.storyboard */,
+				799E466F26C1913E00BBBB98 /* Info.plist */,
+			);
+			path = "JWPlayer Ads";
+			sourceTree = "<group>";
+		};
+		7A866F3F27A8417900813C2F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7A866F4027A8419300813C2F /* MenuViewController.swift */,
+				7A866F4127A8419300813C2F /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		9FCD93B217A38ADECE9D109F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B82B51F26270586F58C6F004 /* Pods_JWPlayer_Ads.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		799E465D26C1913D00BBBB98 /* JWPlayer Ads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799E467226C1913E00BBBB98 /* Build configuration list for PBXNativeTarget "JWPlayer Ads" */;
+			buildPhases = (
+				01DCB39BD8F12BA66150B05D /* [CP] Check Pods Manifest.lock */,
+				799E465A26C1913D00BBBB98 /* Sources */,
+				799E465B26C1913D00BBBB98 /* Frameworks */,
+				799E465C26C1913D00BBBB98 /* Resources */,
+				543FCA5702E9B000D4B49746 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JWPlayer Ads";
+			productName = "JWPlayer Ads";
+			productReference = 799E465E26C1913D00BBBB98 /* JWPlayer Ads.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799E465626C1913D00BBBB98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = NPAW;
+				TargetAttributes = {
+					799E465D26C1913D00BBBB98 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 799E465926C1913D00BBBB98 /* Build configuration list for PBXProject "JWPlayer Ads" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 799E465526C1913D00BBBB98;
+			productRefGroup = 799E465F26C1913D00BBBB98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				799E465D26C1913D00BBBB98 /* JWPlayer Ads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		799E465C26C1913D00BBBB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799E466E26C1913E00BBBB98 /* LaunchScreen.storyboard in Resources */,
+				799E466B26C1913E00BBBB98 /* Assets.xcassets in Resources */,
+				7A866F4327A8419300813C2F /* MenuViewController.xib in Resources */,
+				799E468E26C1AC5E00BBBB98 /* README.md in Resources */,
+				799E466926C1913D00BBBB98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01DCB39BD8F12BA66150B05D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWPlayer Ads-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		543FCA5702E9B000D4B49746 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayer Ads/Pods-JWPlayer Ads-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayer Ads/Pods-JWPlayer Ads-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWPlayer Ads/Pods-JWPlayer Ads-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		799E465A26C1913D00BBBB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799E466626C1913D00BBBB98 /* ViewController.swift in Sources */,
+				799E466226C1913D00BBBB98 /* AppDelegate.swift in Sources */,
+				799E466426C1913D00BBBB98 /* SceneDelegate.swift in Sources */,
+				7A866F4227A8419300813C2F /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		799E466726C1913D00BBBB98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				799E466826C1913D00BBBB98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		799E466C26C1913E00BBBB98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				799E466D26C1913E00BBBB98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		799E467026C1913E00BBBB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		799E467126C1913E00BBBB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		799E467326C1913E00BBBB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6450B4190AC3BE4B1763A6 /* Pods-JWPlayer Ads.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAR8GLKRWU;
+				INFOPLIST_FILE = "JWPlayer Ads/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npaw.youbora.adapter.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		799E467426C1913E00BBBB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E998E257D76332B5DAFC08B /* Pods-JWPlayer Ads.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAR8GLKRWU;
+				INFOPLIST_FILE = "JWPlayer Ads/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npaw.youbora.adapter.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		799E465926C1913D00BBBB98 /* Build configuration list for PBXProject "JWPlayer Ads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799E467026C1913E00BBBB98 /* Debug */,
+				799E467126C1913E00BBBB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799E467226C1913E00BBBB98 /* Build configuration list for PBXNativeTarget "JWPlayer Ads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799E467326C1913E00BBBB98 /* Debug */,
+				799E467426C1913E00BBBB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799E465626C1913D00BBBB98 /* Project object */;
+}

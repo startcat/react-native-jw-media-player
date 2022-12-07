@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+workspace 'YouboraJWPlayerAdapter.xcworkspace'
+
+def generic_pods
+  pod 'YouboraLib'
+  pod 'JWPlayerKit', '~> 4.0'
+end
+
+def sample_pods
+  generic_pods
+  pod 'YouboraJWPlayer4Adapter'
+  pod 'YouboraConfigUtils'
+end
+
+target 'YouboraJWPlayerAdapter' do
+  project 'YouboraJWPlayerAdapter.xcodeproj'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for YouboraJWPlayerAdapter
+  generic_pods
+end
+
+target 'JWPlayer Ads' do
+  project 'Example/JWPlayer Ads/JWPlayer Ads.xcodeproj'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JWPlayer Ads
+  sample_pods
+end
