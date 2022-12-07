@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2A5DC7C0272B5DB6003BF3E4 /* RCTConvert+RNJWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5DC7BF272B5DB6003BF3E4 /* RCTConvert+RNJWPlayer.m */; };
-		2A9166FF21064ECE00152DD3 /* JWPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9166FD21064DE100152DD3 /* JWPlayer_iOS_SDK.framework */; };
+		2A9166FF21064ECE00152DD3 /* JWPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9166FD21064DE100152DD3 /* JWPlayer_iOS_SDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		2AA52BE726C144B200AD26AE /* RNJWPlayerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA52BE226C144B200AD26AE /* RNJWPlayerViewManager.m */; };
 		2AA52BE826C144B200AD26AE /* RNJWPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */; };
 		3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */; };
 		3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FD01E43B3090011FBAA /* Foundation.framework */; };
-		FAF2E4612941028D00697328 /* YouboraLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2E4602941028D00697328 /* YouboraLib.xcframework */; };
+		FAF2E46329410B4B00697328 /* YouboraLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2E46229410B4B00697328 /* YouboraLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +40,7 @@
 		3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BC75FD01E43B3090011FBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAF2E4602941028D00697328 /* YouboraLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = YouboraLib.xcframework; path = Carthage/Build/YouboraLib.xcframework; sourceTree = "<group>"; };
+		FAF2E46229410B4B00697328 /* YouboraLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouboraLib.framework; path = Carthage/Build/Mac/YouboraLib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF2E4612941028D00697328 /* YouboraLib.xcframework in Frameworks */,
+				FAF2E46329410B4B00697328 /* YouboraLib.framework in Frameworks */,
 				3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */,
 				3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */,
 				2A9166FF21064ECE00152DD3 /* JWPlayer_iOS_SDK.framework in Frameworks */,
@@ -68,6 +69,7 @@
 		3BC75FCA1E43B1DB0011FBAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAF2E46229410B4B00697328 /* YouboraLib.framework */,
 				FAF2E4602941028D00697328 /* YouboraLib.xcframework */,
 				2A9166FD21064DE100152DD3 /* JWPlayer_iOS_SDK.framework */,
 				3BC75FD01E43B3090011FBAA /* Foundation.framework */,
@@ -237,6 +239,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../ios/**",
 					"~/Documents/JWPlayer-SDK",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -261,6 +264,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../ios/**",
 					"~/Documents/JWPlayer-SDK",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
