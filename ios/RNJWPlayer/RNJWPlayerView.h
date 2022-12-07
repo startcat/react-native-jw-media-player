@@ -8,6 +8,7 @@
 #import <AVKit/AVKit.h>
 #import <JWPlayerKit/JWPlayerKit-swift.h>
 #import "RNJWPlayerViewController.h"
+#import <YouboraJWPlayerAdapter/YouboraJWPlayerAdapter.h>
 
 @class RNJWPlayerViewController;
 
@@ -25,6 +26,10 @@
 @property(nonatomic)BOOL wasInterrupted;
 
 @property(nonatomic)JWInterfaceBehavior interfaceBehavior;
+
+/* Youbora */
+@property (nonatomic, strong) YBPlugin * youboraPlugin;
+@property (nonatomic, strong) YBJWPlayerAdapter * youboraAdapter;
 
 /* DRM props */
 @property(nonatomic) NSString *fairplayCertUrl;

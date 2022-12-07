@@ -3,6 +3,7 @@
 #import <AVKit/AVKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import "RCTConvert+RNJWPlayer.h"
+#import <YouboraJWPlayerAdapter/YouboraJWPlayerAdapter.h>
 
 @implementation RNJWPlayerView
 
