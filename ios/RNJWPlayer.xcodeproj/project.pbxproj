@@ -262,7 +262,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../ios/**",
 					"~/Documents/JWPlayer-SDK",
-					"$(PROJECT_DIR)/Carthage/Build",
+					"$(PROJECT_DIR)/Carthage/Build/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -287,7 +287,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../ios/**",
 					"~/Documents/JWPlayer-SDK",
-					"$(PROJECT_DIR)/Carthage/Build",
+					"$(PROJECT_DIR)/Carthage/Build/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
