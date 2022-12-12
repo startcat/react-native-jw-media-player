@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,6 @@
 		2AA52BE826C144B200AD26AE /* RNJWPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */; };
 		3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */; };
 		3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FD01E43B3090011FBAA /* Foundation.framework */; };
-		FAC4F6B4294753DB0034F421 /* YouboraJWPlayerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4F6B1294753DB0034F421 /* YouboraJWPlayerAdapter.framework */; };
-		FAC4F6B5294753DB0034F421 /* JWPlayerKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4F6B2294753DB0034F421 /* JWPlayerKit.xcframework */; };
-		FAC4F6B6294753DB0034F421 /* YouboraLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4F6B3294753DB0034F421 /* YouboraLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,11 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC4F6B5294753DB0034F421 /* JWPlayerKit.xcframework in Frameworks */,
-				FAC4F6B6294753DB0034F421 /* YouboraLib.framework in Frameworks */,
 				3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */,
 				3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */,
-				FAC4F6B4294753DB0034F421 /* YouboraJWPlayerAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

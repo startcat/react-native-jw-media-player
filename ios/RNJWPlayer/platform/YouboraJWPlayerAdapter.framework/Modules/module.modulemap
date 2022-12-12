@@ -1,6 +1,0 @@
-framework module YouboraJWPlayerAdapter {
-  umbrella header "YouboraJWPlayerAdapter.h"
-
-  export *
-  module * { export * }
-}
