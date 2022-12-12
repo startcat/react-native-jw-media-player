@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,8 @@
 		2AA52BE826C144B200AD26AE /* RNJWPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */; };
 		3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */; };
 		3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FD01E43B3090011FBAA /* Foundation.framework */; };
-		FAC4F6A9294744650034F421 /* YouboraLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4F6A629473F9B0034F421 /* YouboraLib.xcframework */; };
 		FAC4F6AB294744CB0034F421 /* YouboraJWPlayerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4F6AA294744CB0034F421 /* YouboraJWPlayerAdapter.framework */; };
+		FAC4F6AE29474CAA0034F421 /* YouboraLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4F6AD29474CAA0034F421 /* YouboraLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +45,7 @@
 		FAC4F6A629473F9B0034F421 /* YouboraLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YouboraLib.xcframework; sourceTree = "<group>"; };
 		FAC4F6A729473FC60034F421 /* YouboraJWPlayerAdapter.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = YouboraJWPlayerAdapter.xcworkspace; path = "Carthage/Checkouts/jwplayer4-adapter-ios/YouboraJWPlayerAdapter.xcworkspace"; sourceTree = "<group>"; };
 		FAC4F6AA294744CB0034F421 /* YouboraJWPlayerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouboraJWPlayerAdapter.framework; path = Carthage/Build/YouboraJWPlayerAdapter.framework; sourceTree = "<group>"; };
+		FAC4F6AD29474CAA0034F421 /* YouboraLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouboraLib.framework; path = Carthage/Build/YouboraLib.framework; sourceTree = "<group>"; };
 		FAF2E4602941028D00697328 /* YouboraLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = YouboraLib.xcframework; path = Carthage/Build/YouboraLib.xcframework; sourceTree = "<group>"; };
 		FAF2E46229410B4B00697328 /* YouboraLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouboraLib.framework; path = Carthage/Build/Mac/YouboraLib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,8 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC4F6AE29474CAA0034F421 /* YouboraLib.framework in Frameworks */,
 				FAC4F6AB294744CB0034F421 /* YouboraJWPlayerAdapter.framework in Frameworks */,
-				FAC4F6A9294744650034F421 /* YouboraLib.xcframework in Frameworks */,
 				3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */,
 				3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */,
 			);
@@ -75,6 +76,7 @@
 		3BC75FCA1E43B1DB0011FBAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAC4F6AD29474CAA0034F421 /* YouboraLib.framework */,
 				FAC4F6AA294744CB0034F421 /* YouboraJWPlayerAdapter.framework */,
 				FAC4F6A729473FC60034F421 /* YouboraJWPlayerAdapter.xcworkspace */,
 				FAC4F6A229473F9B0034F421 /* Build */,
