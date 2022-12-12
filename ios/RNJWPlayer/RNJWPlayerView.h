@@ -7,12 +7,12 @@
 #import <UIKit/UIKit.h>
 #import <AVKit/AVKit.h>
 #import <JWPlayerKit/JWPlayerKit-swift.h>
+#import <GoogleCast/GoogleCast.h>
 #import "RNJWPlayerViewController.h"
-#import <YouboraJWPlayerAdapter/YouboraJWPlayerAdapter.h>
 
 @class RNJWPlayerViewController;
 
-@interface RNJWPlayerView : UIView  <JWPlayerDelegate, JWPlayerStateDelegate, JWAdDelegate, JWAVDelegate, JWPlayerViewDelegate, JWPlayerViewControllerDelegate, JWDRMContentKeyDataSource, AVPictureInPictureControllerDelegate>
+@interface RNJWPlayerView : UIView  <JWPlayerDelegate, JWPlayerStateDelegate, JWAdDelegate, JWCastDelegate, JWAVDelegate, JWPlayerViewDelegate, JWPlayerViewControllerDelegate, JWDRMContentKeyDataSource, AVPictureInPictureControllerDelegate>
 
 @property(nonatomic, strong)RNJWPlayerViewController* playerViewController;
 @property(nonatomic, strong)JWPlayerView *playerView;
@@ -27,14 +27,15 @@
 
 @property(nonatomic)JWInterfaceBehavior interfaceBehavior;
 
-/* Youbora */
-@property (nonatomic, strong) YBPlugin * youboraPlugin;
-@property (nonatomic, strong) YBJWPlayerAdapter * youboraAdapter;
-
 /* DRM props */
 @property(nonatomic) NSString *fairplayCertUrl;
 @property(nonatomic) NSString *processSpcUrl;
 @property(nonatomic) NSString *contentUUID;
+
+/* casting objects */
+@property(nonatomic, strong)JWCastController *castController;
+@property(nonatomic)BOOL isCasting;
+@property(nonatomic, strong)NSArray<JWCastingDevice *> *availableDevices;
 
 /* player state events */
 @property(nonatomic, copy)RCTBubblingEventBlock onBuffer;
@@ -80,6 +81,24 @@
 
 /* player view events */
 @property(nonatomic, copy)RCTBubblingEventBlock onPlayerSizeChange;
+
+/* casting events */
+@property(nonatomic, copy)RCTBubblingEventBlock onCastingDevicesAvailable;
+@property(nonatomic, copy)RCTBubblingEventBlock onConnectedToCastingDevice;
+@property(nonatomic, copy)RCTBubblingEventBlock onDisconnectedFromCastingDevice;
+@property(nonatomic, copy)RCTBubblingEventBlock onConnectionTemporarilySuspended;
+@property(nonatomic, copy)RCTBubblingEventBlock onConnectionRecovered;
+@property(nonatomic, copy)RCTBubblingEventBlock onConnectionFailed;
+@property(nonatomic, copy)RCTBubblingEventBlock onCasting;
+@property(nonatomic, copy)RCTBubblingEventBlock onCastingEnded;
+@property(nonatomic, copy)RCTBubblingEventBlock onCastingFailed;
+
+/* casting methods */
+- (void)setUpCastController;
+- (void)presentCastDialog;
+- (GCKCastState)castState;
+- (JWCastingDevice*)connectedDevice;
+- (NSArray <JWCastingDevice *>*)availableDevices;
 
 /* Methods */
 -(void)setLicense:(id)license;
