@@ -13,6 +13,8 @@
 		2AA52BE826C144B200AD26AE /* RNJWPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */; };
 		3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */; };
 		3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FD01E43B3090011FBAA /* Foundation.framework */; };
+		FAC4F6BF2947AF1A0034F421 /* YouboraLib in Sources */ = {isa = PBXBuildFile; fileRef = FAC4F6BE2947AE930034F421 /* YouboraLib */; };
+		FAC4F6C02947AF1A0034F421 /* YouboraJWPlayerAdapter in Sources */ = {isa = PBXBuildFile; fileRef = FAC4F6BD2947AE770034F421 /* YouboraJWPlayerAdapter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,8 @@
 		2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJWPlayerView.m; path = RNJWPlayer/RNJWPlayerView.m; sourceTree = "<group>"; };
 		3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BC75FD01E43B3090011FBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAC4F6BD2947AE770034F421 /* YouboraJWPlayerAdapter */ = {isa = PBXFileReference; lastKnownFileType = folder; name = YouboraJWPlayerAdapter; path = ../../../UBEAT/GitRN68/ios/Pods/YouboraJWPlayer4Adapter/YouboraJWPlayerAdapter; sourceTree = "<group>"; };
+		FAC4F6BE2947AE930034F421 /* YouboraLib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = YouboraLib; path = ../../../UBEAT/GitRN68/ios/Pods/YouboraLib/YouboraLib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				FAC4F6BE2947AE930034F421 /* YouboraLib */,
+				FAC4F6BD2947AE770034F421 /* YouboraJWPlayerAdapter */,
 				2AA52BE126C144B200AD26AE /* RNJWPlayerView.h */,
 				2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */,
 				2AA52BE326C144B200AD26AE /* RNJWPlayerViewManager.h */,
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC4F6BF2947AF1A0034F421 /* YouboraLib in Sources */,
+				FAC4F6C02947AF1A0034F421 /* YouboraJWPlayerAdapter in Sources */,
 				2AA52BE826C144B200AD26AE /* RNJWPlayerView.m in Sources */,
 				2A5DC7C0272B5DB6003BF3E4 /* RCTConvert+RNJWPlayer.m in Sources */,
 				2AA52BE726C144B200AD26AE /* RNJWPlayerViewManager.m in Sources */,

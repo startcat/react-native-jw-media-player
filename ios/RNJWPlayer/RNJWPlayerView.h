@@ -8,6 +8,7 @@
 #import <AVKit/AVKit.h>
 #import <JWPlayerKit/JWPlayerKit-swift.h>
 #import "RNJWPlayerViewController.h"
+#import <YouboraJWPlayerAdapter/YouboraJWPlayerAdapter.h>
 
 @class RNJWPlayerViewController;
 
