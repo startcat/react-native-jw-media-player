@@ -8,7 +8,7 @@
 #import <AVKit/AVKit.h>
 #import <JWPlayerKit/JWPlayerKit-swift.h>
 #import "RNJWPlayerViewController.h"
-#import <YouboraJWPlayerAdapter/YouboraJWPlayerAdapter.h>
+#import "YouboraJWPlayerAdapter.h"
 
 @class RNJWPlayerViewController;
 
@@ -16,6 +16,9 @@
 
 @property(nonatomic, strong)RNJWPlayerViewController* playerViewController;
 @property(nonatomic, strong)JWPlayerView *playerView;
+
+@property (nonatomic, strong) YBPlugin * plugin;
+@property (nonatomic, strong) YBJWPlayerAdapter * adapter;
 
 @property(nonatomic, strong)AVAudioSession *audioSession;
 
